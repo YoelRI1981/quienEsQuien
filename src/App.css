@@ -1,0 +1,50 @@
+.persons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+.persons-card {
+  width: 100px;
+  height: 50px;
+}
+
+.persons-img {
+  width: 100%;
+  height: 100%;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 12px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+
+}
+
+.questions-buttons{
+
+  border: 5px solid black;
+  border-radius: 5px;
+  
+    width: 135px;
+    height: 135px;
+    text-align: center;
+}
+
+
+  .bt {
+    margin: 5px;
+    border-radius: 30px;
+    background: azure;
+}
